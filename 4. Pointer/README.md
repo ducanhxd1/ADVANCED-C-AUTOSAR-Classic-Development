@@ -1,6 +1,4 @@
-</details>
-<details>
-  <summary><h3>Con trỏ(pointer)</h3></summary>
+#CON TRỎ
 
 **Con trỏ là gì** 
 - Là 1 biến ,không lưu giá trị bình thường, nó lưu địa chỉ.
