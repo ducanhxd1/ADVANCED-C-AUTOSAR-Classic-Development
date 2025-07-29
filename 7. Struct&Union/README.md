@@ -77,3 +77,7 @@ Bộ vi xử lý thường truy xuất dữ liệu nhanh hơn nếu dữ liệu 
 ### 1.2.2. Padding byte
 + Đây là những byte được thêm vào sau địa chỉ của mỗi biến được khai báo để đảm bảo được quy tắc căn chỉnh của từng thành viên hoặc cả struct. 
 
+
+# Kết luận:
+Các thành viên bên trong struct nếu được cấp phát thì sẽ có đặc điểm tương tự với mảng, các thành viên sẽ được đặt liền kề nhau trong vùng nhớ.
+
