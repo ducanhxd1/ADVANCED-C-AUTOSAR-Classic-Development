@@ -14,22 +14,22 @@
 
 // cấu trúc ngăn xếp
 typedef struct {
-    int* items;
-    int size;
-    int top;
+    int* items; // Con trỏ tới mảng động chứa các phần tử stack
+    int size;   // Sức chứa hiện tại của mảng
+    int top;    // Vị trí đỉnh của stack (-1 khi rỗng)
 } Stack;
 
 // hàm khởi tạo bộ nhớ cho ngăn xếp
 void Init_Stack(Stack* stack, int size);
 
 // hàm kiểm tra stack đầy
-bool Isfull(Stack stack);
+bool IsFull(Stack stack);
 
 // hàm kiểm tra stack rỗng
 bool IsEmpty(Stack stack);
 
 // hàm thêm phần tử vào stack
-void Push(Stack* stack, int data);
+void Push1(Stack* stack, int data);
 
 // hàm xoa phần tử o dinh stack
 int Pop(Stack* stack, int data);
