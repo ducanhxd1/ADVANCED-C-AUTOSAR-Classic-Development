@@ -2,7 +2,7 @@
 ## Khái niệm:
 Ngăn xếp (stack) là một cấu trúc dữ liệu tuyến tính, hoạt động theo nguyên tắc LIFO - Last In, First Out nghĩa là phần tử cuối cùng được thêm vào stack sẽ là phần tử đầu tiên được lấy ra.
 
-### Các thao tác cơ bản:
+## Các thao tác cơ bản:
 | Tên thao tác | Ý nghĩa                                        | Diễn giải         |
 | ------------ | ---------------------------------------------- | ----------------- |
 | `push(x)`    | Thêm phần tử `x` vào đỉnh của stack            | "Push vào đỉnh"   |
@@ -50,7 +50,7 @@ Không nên giảm vì :
 ## Khái niệm:
 Hàng đợi (queue) là một cấu trúc dữ liệu tuyến tính, hoạt động theo nguyên tắc FIFO - First In First Out. Phần tử được thêm vào đầu tiên sẽ lấy ra đầu tiên.
 
-### Các thao tác cơ bản:
+## Các thao tác cơ bản:
 | Tên thao tác | Ý nghĩa                                        | Diễn giải         |
 | ------------ | ---------------------------------------------- | ----------------- |
 | `enqueue(x)` | Thêm phần tử `x` vào cuối hàng đợi             | "Push vào sau"    |
