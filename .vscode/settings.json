@@ -3,6 +3,8 @@
         "stdarg.h": "c",
         "stdio.h": "c",
         "queue.h": "c",
-        "stack.h": "c"
+        "stack.h": "c",
+        "list.h": "c",
+        "stdbool.h": "c"
     }
 }
