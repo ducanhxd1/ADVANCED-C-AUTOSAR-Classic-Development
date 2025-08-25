@@ -39,15 +39,15 @@ void printList(Node *head)
     printf("NULL\n");
 }
 
-void pushBack(Node **head, int value)
-{
-	// tao node moi
-	Node *node = createNode(value);
+// void pushBack(Node **head, int value)
+// {
+// 	// tao node moi
+// 	Node *node = createNode(value);
 	
-	// kiem tra va cap nhat node dau neu danh sach rong
-	if
+// 	// kiem tra va cap nhat node dau neu danh sach rong
+// 	if
 	
-}
+// }
 
 
 
